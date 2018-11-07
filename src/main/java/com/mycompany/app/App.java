@@ -18,7 +18,7 @@ public class App {
                 .addTokenFilter("porterstem")
                 .build();
         MyIndexWriter iw = MyIndexWriter.getInstance();
-        iw.parseFBIS();
+        iw.parseFBIS(); //does this work now??
         //iw.parseFinacialTimes();
         //iw.parseLATimes();
         //Directory index = iw.index(1, analyzer);
